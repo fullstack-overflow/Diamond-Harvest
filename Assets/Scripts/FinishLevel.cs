@@ -12,9 +12,17 @@ public class FinishLevel : MonoBehaviour
     public GameObject timeLeft;
     public GameObject theScore;
     public GameObject totalScore;
+    public int timeCalc;
+    public int scoreCalc;
+    public int totalScored;
 
     void OnTriggerEnter()
     {
+        timeCalc = GlobalTimer.extendScore * 100;
+        timeLeft.GetComponent<Text>().text = "Time left: " + GlobalTimer.extendScore + " x 100";
+        theScore.GetComponent<Text>().text = "Score: " + GlobalScore.currentScore;
+        totalScored = GlobalScore.currentScore + timeCalc;
+        totalScore.GetComponent<Text>().text = "Total Score: " + totalScored;
         // disable levelMusic, levelTimer and enable levelComplete :D
         levelMusic.SetActive(false);
         levelTimer.SetActive(false);

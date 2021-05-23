@@ -566,7 +566,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &68492516
 RectTransform:
   m_ObjectHideFlags: 0
@@ -583,8 +583,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -24.599987}
-  m_SizeDelta: {x: 200, y: 2.77}
+  m_AnchoredPosition: {x: 3.24, y: -23.58}
+  m_SizeDelta: {x: 261.91937, y: 2.3068986}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &68492517
 MonoBehaviour:
@@ -1659,7 +1659,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &654643477
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1677,8 +1677,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 12.88, y: 37.300003}
-  m_SizeDelta: {x: 185.75201, y: 40.318176}
+  m_AnchoredPosition: {x: -0.0000019073, y: 26.861}
+  m_SizeDelta: {x: 273.08176, y: 40.318176}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &654643478
 MonoBehaviour:
@@ -2919,7 +2919,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1145769586
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2936,8 +2936,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 12.88, y: 71.3}
-  m_SizeDelta: {x: 185.75201, y: 40.318176}
+  m_AnchoredPosition: {x: 0.18419, y: 66.7}
+  m_SizeDelta: {x: 425.69772, y: 39.360077}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1145769587
 MonoBehaviour:
@@ -3168,7 +3168,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1292106632
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3185,8 +3185,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 12.88, y: -16}
-  m_SizeDelta: {x: 185.75201, y: 40.318176}
+  m_AnchoredPosition: {x: 0.18419, y: -20.159}
+  m_SizeDelta: {x: 283.64755, y: 40.318176}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1292106633
 MonoBehaviour:
@@ -3220,7 +3220,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Score: 0'
+  m_Text: 'Total Score: 0'
 --- !u!222 &1292106634
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3943,6 +3943,12 @@ MonoBehaviour:
   levelMusic: {fileID: 539626297}
   levelComplete: {fileID: 1087189758}
   levelTimer: {fileID: 659802391}
+  timeLeft: {fileID: 1145769585}
+  theScore: {fileID: 654643476}
+  totalScore: {fileID: 1292106631}
+  timeCalc: 0
+  scoreCalc: 0
+  totalScored: 0
 --- !u!1 &1726579664
 GameObject:
   m_ObjectHideFlags: 0
