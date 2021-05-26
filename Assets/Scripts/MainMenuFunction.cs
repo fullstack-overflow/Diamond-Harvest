@@ -12,4 +12,15 @@ public class MainMenuFunction : MonoBehaviour
         RedirectToLevel.redirectToLevel = 3;
         SceneManager.LoadScene(2);
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+    public void PlayCreds()
+    {
+        buttonPress.Play();
+        SceneManager.LoadScene(4);
+    }
 }
