@@ -44,5 +44,8 @@ public class FinishLevel : MonoBehaviour
         totalScore.SetActive(true);
         yield return new WaitForSeconds(2);
         fadeOut.SetActive(true);
+        yield return new WaitForSeconds(2);
+        GlobalScore.currentCore = 0;
+        SceneManager.LoadScene(RedirectToLevel.nextLevel);
     }
 }
