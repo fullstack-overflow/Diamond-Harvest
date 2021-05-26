@@ -28,6 +28,7 @@ public class FinishLevel : MonoBehaviour
         theScore.GetComponent<Text>().text = "Score: " + GlobalScore.currentScore;
         totalScored = GlobalScore.currentScore + timeCalc;
         totalScore.GetComponent<Text>().text = "Total Score: " + totalScored;
+        PlayerPrefs.SetInt("LevelScore", totalScored);
         // disable levelMusic, levelTimer and enable levelComplete :D
         levelMusic.SetActive(false);
         levelTimer.SetActive(false);
