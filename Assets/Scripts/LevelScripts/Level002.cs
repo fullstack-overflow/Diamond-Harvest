@@ -9,7 +9,8 @@ public class Level002 : MonoBehaviour
     {
         RedirectToLevel.redirectToLevel = 5;
         // Level003 has scene equals 6
-        RedirectToLevel.nextLevel = 6;
+        // Back to MainMenu 1
+        RedirectToLevel.nextLevel = 1;
         StartCoroutine(FadeInOff());
     }
 
